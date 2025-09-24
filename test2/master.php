@@ -53,9 +53,9 @@ if(isset($_POST['simpan'])){
                 <input type="submit" class="btn btn-save" name="simpan" value="SIMPAN">
                 <input type="reset" class="btn btn-cancel" value="BATAL">
             </div>
-            <small>Internal Use Only</small>
         </form>
     </div>
 </div>
 </body>
 </html>
+
