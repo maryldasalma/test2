@@ -31,6 +31,6 @@ $q = $mysqli->query("SELECT * FROM TB_MS_PRODUK");
 </tr>
 <?php } ?>
 </table>
-<small>Internal Use Only</small>
 </body>
 </html>
+
