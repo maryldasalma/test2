@@ -48,9 +48,9 @@ if(isset($_POST['proses'])){
                 <input type="submit" class="btn btn-save" name="proses" value="PROSES">
                 <input type="reset" class="btn btn-cancel" value="BATAL">
             </div>
-            <small>Internal Use Only</small>
         </form>
     </div>
 </div>
 </body>
 </html>
+
