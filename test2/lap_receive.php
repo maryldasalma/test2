@@ -44,6 +44,6 @@ $q = $mysqli->query("
 </tr>
 <?php } ?>
 </table>
-<small>Internal Use Only</small>
 </body>
 </html>
+
