@@ -31,6 +31,6 @@ $q = $mysqli->query("SELECT o.*, p.DESCP
 </tr>
 <?php } ?>
 </table>
-<small>Internal Use Only</small>
 </body>
 </html>
+
