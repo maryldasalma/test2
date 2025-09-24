@@ -1,0 +1,115 @@
+/* default body untuk laporan */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    background: #f5f7fa; 
+    margin: 0;
+    padding: 0;
+}
+
+/* khusus halaman form */
+body.form-page {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* biar ga terlalu tengah saat tabel tinggi */
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+}
+
+.form-box {
+    border: 1px solid #999;
+    padding: 25px;
+    width: 90%;            /* fleksibel */
+    max-width: 1000px;     /* batasi maksimal */
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    overflow-x: auto;      /* kalau tabel masih kepanjangan, muncul scroll */
+}
+
+h3 {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+}
+
+.form-row label {
+    flex: 0 0 120px;
+    font-weight: bold;
+}
+
+.form-row input,
+.form-row select {
+    flex: 1;
+    padding: 6px;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+.btn {
+    padding: 8px 20px;
+    margin: 10px 5px 0 0;
+    font-weight: bold;
+    border: 1px solid #666;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.btn-save {
+    background: #cfe9cf; 
+}
+
+.notif-success {
+    background: #cfe9cf;
+    color: #2c662d;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn-cancel {
+    background: #eee;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;           /* isi penuh kotak */
+    table-layout: auto;    /* kolom menyesuaikan isi */
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #666;
+    padding: 6px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+th {
+    background: #5da9dd;
+    color: #000;
+}
+
+small {
+    display: block;
+    margin-top: 12px;
+    font-size: 11px;
+    color: #666;
+    text-align: center;
+}
